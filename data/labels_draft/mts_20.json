@@ -3,14 +3,15 @@
   "patient_sex": "female",
   "chief_complaint": "Severe back pain and sleepiness",
   "diagnoses": [
-    "Vasovagal syncope versus polypharmacy",
-    "Osteoporosis of the spine with L1 compression fracture",
-    "Hypertension, now hypotension",
-    "Incontinence of the bladder",
-    "Dementia, most likely Alzheimer type",
-    "Near syncopal episode",
-    "Degenerative joint disease of the spine",
-    "Chronic back pain"
+    "hypertension",
+    "urinary incontinence",
+    "dementia, most likely Alzheimer type",
+    "chronic back pain",
+    "degenerative joint disease of the spine",
+    "near syncopal episode",
+    "vasovagal syncope versus polypharmacy",
+    "osteoporosis of the spine with L1 compression fracture",
+    "hypotension"
   ],
   "medications": [
     {
@@ -92,7 +93,13 @@
       "frequency": "as needed"
     },
     {
-      "name": "calcium with vitamin D",
+      "name": "calcium",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "vitamin D",
       "dose": null,
       "route": null,
       "frequency": null

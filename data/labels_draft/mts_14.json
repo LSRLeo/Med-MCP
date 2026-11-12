@@ -3,9 +3,10 @@
   "patient_sex": "female",
   "chief_complaint": "Followup evaluation of interstitial disease secondary to lupus pneumonitis",
   "diagnoses": [
-    "Interstitial disease secondary to lupus pneumonitis",
-    "Lupus with mild pneumonitis",
-    "Increasing back and joint pain"
+    "interstitial disease secondary to lupus pneumonitis",
+    "lupus with mild pneumonitis",
+    "increasing back and joint pain",
+    "intolerance to shellfish"
   ],
   "medications": [
     {

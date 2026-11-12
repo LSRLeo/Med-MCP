@@ -1,10 +1,11 @@
 {
   "patient_age": 30,
   "patient_sex": "male",
-  "chief_complaint": "Followup of moderate-to-severe sleep apnea; review response to CPAP",
+  "chief_complaint": "Followup of moderate-to-severe sleep apnea, review response to CPAP",
   "diagnoses": [
-    "Moderate-to-severe sleep apnea",
-    "allergic rhinitis"
+    "moderate-to-severe sleep apnea",
+    "allergic rhinitis",
+    "Molds"
   ],
   "medications": [
     {
@@ -14,9 +15,7 @@
       "frequency": null
     }
   ],
-  "allergies": [
-    "Molds"
-  ],
+  "allergies": [],
   "no_known_allergies": false,
   "vitals": {
     "systolic_bp": 126,

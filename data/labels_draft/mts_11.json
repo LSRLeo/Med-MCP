@@ -8,6 +8,24 @@
   ],
   "medications": [
     {
+      "name": "B12",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "oral iron",
+      "dose": null,
+      "route": "oral",
+      "frequency": null
+    },
+    {
+      "name": "Procrit",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
       "name": "Coumadin",
       "dose": null,
       "route": null,
@@ -38,12 +56,6 @@
       "frequency": null
     },
     {
-      "name": "B12",
-      "dose": null,
-      "route": null,
-      "frequency": null
-    },
-    {
       "name": "Prevacid",
       "dose": null,
       "route": null,
@@ -51,12 +63,6 @@
     },
     {
       "name": "Feosol",
-      "dose": null,
-      "route": null,
-      "frequency": null
-    },
-    {
-      "name": "Procrit",
       "dose": null,
       "route": null,
       "frequency": null

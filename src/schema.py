@@ -31,11 +31,17 @@ class ClinicalNote(BaseModel):
     patient_age: Optional[int] = Field(None, description="Age in years")
     patient_sex: Optional[Literal["male", "female", "other"]] = None
     chief_complaint: Optional[str] = None
-    diagnoses: list[str] = Field(default_factory=list)
-    medications: list[Medication] = Field(default_factory=list)
+    diagnoses: list[str] = Field(
+        default_factory=list,
+        description="Current and past conditions, including non-drug allergies",
+    )
+    medications: list[Medication] = Field(
+        default_factory=list,
+        description="Every medication mentioned: home, given during the visit, and discharge",
+    )
     allergies: list[str] = Field(
         default_factory=list,
-        description="Allergen names. Empty if NKDA or not mentioned.",
+        description="Drug allergens only. Empty if NKDA or not mentioned.",
     )
     no_known_allergies: bool = Field(
         False, description="True only if the note explicitly says NKDA / no known allergies"

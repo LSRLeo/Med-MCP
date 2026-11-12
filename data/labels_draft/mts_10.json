@@ -4,17 +4,29 @@
   "chief_complaint": "increased weight and edema over the last few weeks with a 25-pound weight gain",
   "diagnoses": [
     "I-131-induced hypothyroidism",
-    "Graves disease",
     "fibromyalgia",
     "inflammatory bowel disease",
     "Crohn disease",
     "COPD",
     "disc disease",
     "hypertension",
+    "Graves disease",
     "weight gain",
     "edema"
   ],
   "medications": [
+    {
+      "name": "amlodipine",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "lisinopril",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
     {
       "name": "levothyroxine",
       "dose": "300 mcg",

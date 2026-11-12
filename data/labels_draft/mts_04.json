@@ -8,13 +8,60 @@
     "Depression",
     "Anxiety",
     "Osteoarthritis",
-    "Right leg muscle spasm/calf pain",
     "Migraine headaches associated with menstrual cycle",
-    "History of herniated disc",
     "History of sciatic pain",
-    "Status post appendectomy"
+    "History of herniated disc",
+    "Right leg muscle spasm/calf pain"
   ],
   "medications": [
+    {
+      "name": "Paxil",
+      "dose": "40 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "MOBIC",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Klonopin",
+      "dose": "1 mg",
+      "route": null,
+      "frequency": "q.h.s."
+    },
+    {
+      "name": "Celebrex",
+      "dose": "200 mg",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Coumadin",
+      "dose": "5 mg",
+      "route": null,
+      "frequency": "every day"
+    },
+    {
+      "name": "Lovenox",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Colace",
+      "dose": "100 mg",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Fiorinal",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
     {
       "name": "Feosol",
       "dose": "325 mg",
@@ -28,28 +75,10 @@
       "frequency": "b.i.d."
     },
     {
-      "name": "oxycodone IR",
+      "name": "Oxycodone IR",
       "dose": "5 mg one to two tablets",
       "route": null,
       "frequency": "q.4h. p.r.n. pain"
-    },
-    {
-      "name": "Paxil",
-      "dose": "40 mg",
-      "route": null,
-      "frequency": "daily"
-    },
-    {
-      "name": "Klonopin",
-      "dose": "1 mg",
-      "route": null,
-      "frequency": "q.h.s."
-    },
-    {
-      "name": "Celebrex",
-      "dose": "200 mg",
-      "route": null,
-      "frequency": "b.i.d."
     },
     {
       "name": "Protonix",
@@ -70,40 +99,10 @@
       "frequency": "p.r.n."
     },
     {
-      "name": "Colace",
-      "dose": "100 mg",
-      "route": null,
-      "frequency": "b.i.d."
-    },
-    {
       "name": "Arixtra",
       "dose": "2.5 mg",
       "route": "subcutaneously",
       "frequency": "daily"
-    },
-    {
-      "name": "Coumadin",
-      "dose": "5 mg",
-      "route": null,
-      "frequency": "every day"
-    },
-    {
-      "name": "MOBIC",
-      "dose": null,
-      "route": null,
-      "frequency": null
-    },
-    {
-      "name": "Fiorinal",
-      "dose": null,
-      "route": null,
-      "frequency": null
-    },
-    {
-      "name": "Lovenox",
-      "dose": null,
-      "route": null,
-      "frequency": null
     }
   ],
   "allergies": [],

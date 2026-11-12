@@ -1,10 +1,11 @@
 {
   "patient_age": 5,
   "patient_sex": "male",
-  "chief_complaint": "have asthma; wheezing and coughing",
+  "chief_complaint": "have asthma",
   "diagnoses": [
-    "respiratory distress",
-    "asthma"
+    "asthma",
+    "frequent pneumonia",
+    "respiratory distress"
   ],
   "medications": [
     {
@@ -48,6 +49,12 @@
       "dose": null,
       "route": null,
       "frequency": null
+    },
+    {
+      "name": "albuterol",
+      "dose": "high-dose",
+      "route": null,
+      "frequency": "continuous"
     },
     {
       "name": "Decadron",

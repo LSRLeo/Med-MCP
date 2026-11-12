@@ -4,11 +4,18 @@
   "chief_complaint": null,
   "diagnoses": [
     "Solitary left kidney with obstruction",
-    "Hypertension",
-    "Chronic renal insufficiency",
-    "Pseudomonas urinary tract infection"
+    "hypertension",
+    "chronic renal insufficiency",
+    "Pseudomonas urinary tract infection",
+    "Multiple urinary tract infection"
   ],
   "medications": [
+    {
+      "name": "enalapril",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
     {
       "name": "Macrodantin",
       "dose": null,
@@ -17,12 +24,6 @@
     },
     {
       "name": "hydralazine",
-      "dose": null,
-      "route": null,
-      "frequency": null
-    },
-    {
-      "name": "enalapril",
       "dose": null,
       "route": null,
       "frequency": null

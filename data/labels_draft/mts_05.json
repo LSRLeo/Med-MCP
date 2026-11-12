@@ -1,7 +1,7 @@
 {
   "patient_age": 17,
   "patient_sex": "male",
-  "chief_complaint": "Ankle pain",
+  "chief_complaint": "Ankle pain.",
   "diagnoses": [],
   "medications": [
     {

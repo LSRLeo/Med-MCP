@@ -5,13 +5,25 @@
   "diagnoses": [
     "Upper gastrointestinal bleed",
     "Anemia",
-    "Atrial fibrillation",
-    "Non-insulin-dependent diabetes mellitus",
-    "Hypertension",
-    "Hypothyroidism",
-    "Asthma"
+    "microcytic anemia",
+    "atrial fibrillation",
+    "hypertension",
+    "osteoarthritis of the knees",
+    "hypercholesterolemia",
+    "non-insulin-dependent diabetes mellitus",
+    "asthma",
+    "hypothyroidism",
+    "erosive gastritis",
+    "diverticulosis",
+    "polyp"
   ],
   "medications": [
+    {
+      "name": "Coumadin",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
     {
       "name": "Feosol",
       "dose": "325 mg",
@@ -71,12 +83,6 @@
       "dose": "20 mg",
       "route": null,
       "frequency": "daily"
-    },
-    {
-      "name": "Coumadin",
-      "dose": null,
-      "route": null,
-      "frequency": null
     }
   ],
   "allergies": [],

@@ -4,7 +4,8 @@
   "chief_complaint": "Falls at home.",
   "diagnoses": [
     "Falls",
-    "Anxiety and depression",
+    "Anxiety",
+    "Depression",
     "Hypertension",
     "Hypercholesterolemia",
     "Coronary artery disease",
@@ -13,6 +14,12 @@
     "Hypothyroidism"
   ],
   "medications": [
+    {
+      "name": "Darvocet",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
     {
       "name": "Tylenol",
       "dose": "650 mg",
@@ -132,12 +139,6 @@
       "dose": "80 mg",
       "route": null,
       "frequency": "b.i.d."
-    },
-    {
-      "name": "Darvocet",
-      "dose": null,
-      "route": null,
-      "frequency": null
     }
   ],
   "allergies": [],

@@ -18,11 +18,24 @@ MAX_RETRIES = 2
 SYSTEM_PROMPT = """\
 You extract structured data from clinical notes.
 
-Rules:
+General:
 - Only record values that are explicitly stated in the note. If a field is not stated, leave it null or empty. Never infer or estimate.
+- Vague statements such as "vital signs stable" or "within normal limits" are not values; leave those fields empty.
 - Copy drug names, doses, and diagnoses as they appear in the note (abbreviations like HTN are fine).
-- Convert temperature to Celsius only if the note gives it in Fahrenheit; otherwise copy it.
-- Set no_known_allergies to true only if the note says NKDA, NKA, or "no known allergies".
+
+Medications: include every medication mentioned (home medications, medications given during the visit, and discharge prescriptions, including IV fluids and supplements).
+- The same drug with a different dose, route, or frequency is a separate entry; the same drug and regimen mentioned twice is one entry.
+- Do not include drugs that appear only as allergies or that the patient is explicitly not taking.
+
+Diagnoses: include current and past conditions (assessment/impression, past medical history, and conditions named as the reason for a medication, e.g. "fluoxetine for depression" -> depression).
+- Non-drug allergies (environmental, seasonal, food, mold) are diagnoses, e.g. "environmental allergies".
+- Do not include negated conditions ("denies chest pain") or symptoms that only appear in the history of present illness.
+- Do not include past surgeries or procedures ("status post colostomy", "hernia repair"), one-time past events or injuries ("gunshot wound"), or minor incidental findings ("bug bites"). Keep ongoing or chronic conditions and the current assessment.
+
+Allergies: drug allergies only. Non-drug allergies go in diagnoses.
+- Set no_known_allergies to true only if the note says NKDA, NKA, or "no known (drug) allergies".
+
+Vitals: use the first set of vitals recorded. Give temperature in Celsius rounded to one decimal place, converting from Fahrenheit if needed.
 """
 
 

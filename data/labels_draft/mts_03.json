@@ -9,7 +9,9 @@
     "Chronic renal failure",
     "Type II diabetes",
     "Myalgias",
-    "Severe anxiety"
+    "Severe anxiety",
+    "left wrist rash",
+    "rash around her lips"
   ],
   "medications": [
     {
@@ -20,7 +22,7 @@
     },
     {
       "name": "triamcinolone 0.1% cream",
-      "dose": "0.1%",
+      "dose": null,
       "route": null,
       "frequency": "t.i.d."
     },
@@ -41,6 +43,18 @@
       "dose": "6 mg",
       "route": null,
       "frequency": "h.s."
+    },
+    {
+      "name": "Klonopin",
+      "dose": "6 mg",
+      "route": null,
+      "frequency": "a.m."
+    },
+    {
+      "name": "Klonopin",
+      "dose": "8 mg",
+      "route": null,
+      "frequency": "p.m."
     },
     {
       "name": "Coumadin",

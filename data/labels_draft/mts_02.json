@@ -3,15 +3,15 @@
   "patient_sex": "male",
   "chief_complaint": "Renal insufficiency",
   "diagnoses": [
-    "Hypertensive emergency",
-    "Acute on chronic renal failure",
-    "Urine drug screen positive",
-    "Question CHF versus COPD exacerbation",
     "coronary artery disease",
     "COPD",
     "congestive heart failure with EF of 20%-25%",
     "hypertension",
     "renal insufficiency",
+    "hypertensive emergency",
+    "acute on chronic renal failure",
+    "urine drug screen positive for cocaine",
+    "question CHF versus COPD exacerbation",
     "chronic cocaine abuse"
   ],
   "medications": [

@@ -3,9 +3,9 @@
   "patient_sex": "male",
   "chief_complaint": "Colostomy failure.",
   "diagnoses": [
-    "Bowel obstruction, status post colostomy",
     "colonic carcinoma",
-    "hypertension"
+    "hypertension",
+    "Bowel obstruction"
   ],
   "medications": [
     {

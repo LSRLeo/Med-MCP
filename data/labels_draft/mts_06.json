@@ -1,11 +1,12 @@
 {
   "patient_age": 50,
   "patient_sex": "female",
-  "chief_complaint": "Lightheaded, dizziness, and palpitation.",
+  "chief_complaint": "Lightheaded, dizziness, and palpitation",
   "diagnoses": [
-    "Lightheaded, dizziness",
-    "No documented arrhythmia with the symptoms of palpitation",
-    "Incomplete right bundle-branch block"
+    "Lightheaded",
+    "dizziness",
+    "palpitation",
+    "History of chest pain"
   ],
   "medications": [
     {

@@ -1,11 +1,10 @@
 {
   "patient_age": 52,
   "patient_sex": "male",
-  "chief_complaint": "Kidney transplant.",
+  "chief_complaint": "Kidney transplant",
   "diagnoses": [
-    "ESRD secondary to hypertension",
-    "Status post cadaveric kidney transplant with stable function",
-    "Hypertension",
+    "ESRD",
+    "hypertension",
     "Hyperlipidemia"
   ],
   "medications": [
@@ -58,8 +57,8 @@
       "frequency": "daily"
     },
     {
-      "name": "Bactrim Single Strength",
-      "dose": null,
+      "name": "Bactrim",
+      "dose": "Single Strength",
       "route": null,
       "frequency": "daily"
     },

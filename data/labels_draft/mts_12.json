@@ -1,9 +1,22 @@
 {
   "patient_age": 71,
   "patient_sex": "female",
-  "chief_complaint": "Shortness of breath for the past month, increasingly worse",
+  "chief_complaint": "Shortness of breath",
   "diagnoses": [
-    "Coronary artery disease"
+    "Coronary artery disease",
+    "chronic renal insufficiency",
+    "severe COPD",
+    "anemia secondary to chronic renal insufficiency",
+    "stage IV chronic kidney disease",
+    "diabetic nephropathy",
+    "hypertension",
+    "hyperlipidemia",
+    "insulin-dependent diabetes",
+    "mild mitral valve regurgitation",
+    "severe tricuspid valve regurgitation",
+    "sick sinus syndrome",
+    "gastritis",
+    "heparin-induced thrombocytopenia"
   ],
   "medications": [
     {

@@ -1,7 +1,7 @@
 {
   "patient_age": 40,
   "patient_sex": "female",
-  "chief_complaint": "nausea and vomiting",
+  "chief_complaint": "Nausea and vomiting",
   "diagnoses": [
     "Viral gastroenteritis",
     "depression",
@@ -43,6 +43,12 @@
       "dose": "10 mg",
       "route": "p.o.",
       "frequency": "q.8h. p.r.n."
+    },
+    {
+      "name": "Imodium",
+      "dose": null,
+      "route": null,
+      "frequency": null
     }
   ],
   "allergies": [],

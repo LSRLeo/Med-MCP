@@ -1,0 +1,21 @@
+{
+  "patient_age": 58,
+  "patient_sex": "male",
+  "chief_complaint": "chest pain x 2 days, worse on exertion",
+  "diagnoses": ["HTN", "T2DM", "HLD", "chest pain"],
+  "medications": [
+    {"name": "lisinopril", "dose": "10 mg", "route": "PO", "frequency": "daily"},
+    {"name": "metformin", "dose": "500 mg", "route": "PO", "frequency": "BID"},
+    {"name": "atorvastatin", "dose": "40 mg", "route": "PO", "frequency": "QHS"}
+  ],
+  "allergies": [],
+  "no_known_allergies": true,
+  "vitals": {
+    "systolic_bp": 152,
+    "diastolic_bp": 94,
+    "heart_rate": 88,
+    "respiratory_rate": 16,
+    "temperature_c": 37.1,
+    "spo2": 97
+  }
+}

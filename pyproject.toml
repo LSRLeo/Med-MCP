@@ -1,0 +1,19 @@
+[project]
+name = "clinical-note-extractor"
+version = "0.1.0"
+description = "MCP server that extracts structured data from clinical notes"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.75",
+    "mcp[cli]>=2",
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

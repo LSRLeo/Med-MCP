@@ -1,0 +1,36 @@
+{
+  "patient_age": null,
+  "patient_sex": "male",
+  "chief_complaint": "Colostomy failure.",
+  "diagnoses": [
+    "Bowel obstruction, status post colostomy",
+    "colonic carcinoma",
+    "hypertension"
+  ],
+  "medications": [
+    {
+      "name": "Accupril",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "vitamins",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "Fleet enema"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 183,
+    "diastolic_bp": 108,
+    "heart_rate": 76,
+    "respiratory_rate": 16,
+    "temperature_c": 37.1,
+    "spo2": null
+  }
+}

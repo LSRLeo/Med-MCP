@@ -1,0 +1,69 @@
+{
+  "patient_age": 5,
+  "patient_sex": "male",
+  "chief_complaint": "have asthma; wheezing and coughing",
+  "diagnoses": [
+    "respiratory distress",
+    "asthma"
+  ],
+  "medications": [
+    {
+      "name": "Advair",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Nasonex",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Xopenex",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Zicam",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Zithromax",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "prednisone",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "albuterol",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Decadron",
+      "dose": null,
+      "route": "PO",
+      "frequency": null
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 112,
+    "diastolic_bp": 65,
+    "heart_rate": 105,
+    "respiratory_rate": 28,
+    "temperature_c": 37.1,
+    "spo2": 91
+  }
+}

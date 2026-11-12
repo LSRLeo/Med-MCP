@@ -1,0 +1,111 @@
+{
+  "patient_age": 76,
+  "patient_sex": "female",
+  "chief_complaint": "Severe back pain and sleepiness",
+  "diagnoses": [
+    "Vasovagal syncope versus polypharmacy",
+    "Osteoporosis of the spine with L1 compression fracture",
+    "Hypertension, now hypotension",
+    "Incontinence of the bladder",
+    "Dementia, most likely Alzheimer type",
+    "Near syncopal episode",
+    "Degenerative joint disease of the spine",
+    "Chronic back pain"
+  ],
+  "medications": [
+    {
+      "name": "hydrocodone",
+      "dose": "10/325 mg",
+      "route": null,
+      "frequency": "every 6 hours"
+    },
+    {
+      "name": "Flexeril",
+      "dose": "10 mg",
+      "route": "p.o.",
+      "frequency": "at bedtime"
+    },
+    {
+      "name": "Xanax",
+      "dose": "0.25 mg",
+      "route": "p.o.",
+      "frequency": "4 times a day"
+    },
+    {
+      "name": "Neurontin",
+      "dose": "200 mg",
+      "route": null,
+      "frequency": "3 times a day"
+    },
+    {
+      "name": "propranolol",
+      "dose": "10 mg",
+      "route": null,
+      "frequency": "twice a day"
+    },
+    {
+      "name": "oxybutynin",
+      "dose": "5 mg",
+      "route": "p.o.",
+      "frequency": "twice a day"
+    },
+    {
+      "name": "Namenda",
+      "dose": "10 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Aricept",
+      "dose": "10 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "normal saline",
+      "dose": null,
+      "route": "IV",
+      "frequency": null
+    },
+    {
+      "name": "KCl",
+      "dose": "20 mEq",
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Protonix",
+      "dose": "40 mg",
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Percocet",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "morphine sulfate",
+      "dose": null,
+      "route": null,
+      "frequency": "as needed"
+    },
+    {
+      "name": "calcium with vitamin D",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 92,
+    "diastolic_bp": 52,
+    "heart_rate": 55,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": null
+  }
+}

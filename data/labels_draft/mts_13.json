@@ -1,0 +1,29 @@
+{
+  "patient_age": 30,
+  "patient_sex": "male",
+  "chief_complaint": "Followup of moderate-to-severe sleep apnea; review response to CPAP",
+  "diagnoses": [
+    "Moderate-to-severe sleep apnea",
+    "allergic rhinitis"
+  ],
+  "medications": [
+    {
+      "name": "Flonase",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "Molds"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 126,
+    "diastolic_bp": 75,
+    "heart_rate": 67,
+    "respiratory_rate": 16,
+    "temperature_c": 36.9,
+    "spo2": 99
+  }
+}

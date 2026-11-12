@@ -1,0 +1,107 @@
+{
+  "patient_age": 52,
+  "patient_sex": "male",
+  "chief_complaint": "Kidney transplant.",
+  "diagnoses": [
+    "ESRD secondary to hypertension",
+    "Status post cadaveric kidney transplant with stable function",
+    "Hypertension",
+    "Hyperlipidemia"
+  ],
+  "medications": [
+    {
+      "name": "Gengraf",
+      "dose": "125/50 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "CellCept",
+      "dose": "500 mg",
+      "route": null,
+      "frequency": "q.i.d."
+    },
+    {
+      "name": "acyclovir",
+      "dose": "800 mg",
+      "route": null,
+      "frequency": "q.i.d."
+    },
+    {
+      "name": "DexFol",
+      "dose": null,
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "ferrous sulfate",
+      "dose": null,
+      "route": null,
+      "frequency": "Mondays, Wednesdays and Fridays"
+    },
+    {
+      "name": "metoprolol",
+      "dose": "50 mg",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "vitamin C",
+      "dose": null,
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "baby aspirin",
+      "dose": "81 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Bactrim Single Strength",
+      "dose": null,
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Cozaar",
+      "dose": "50 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "WelChol",
+      "dose": "625 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Pravachol",
+      "dose": "10 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "fish oil",
+      "dose": null,
+      "route": null,
+      "frequency": "b.i.d."
+    }
+  ],
+  "allergies": [
+    "Aspirin",
+    "Altace",
+    "Lipitor",
+    "Pravachol",
+    "Zetia"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 108,
+    "diastolic_bp": 64,
+    "heart_rate": 82,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": null
+  }
+}

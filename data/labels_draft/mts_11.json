@@ -1,0 +1,75 @@
+{
+  "patient_age": 78,
+  "patient_sex": "male",
+  "chief_complaint": "I needed a blood transfusion.",
+  "diagnoses": [
+    "Refractory anemia that is transfusion dependent",
+    "Diabetes"
+  ],
+  "medications": [
+    {
+      "name": "Coumadin",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Lasix",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "metformin",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "folic acid",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "diltiazem",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "B12",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Prevacid",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Feosol",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Procrit",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": true,
+  "vitals": {
+    "systolic_bp": 110,
+    "diastolic_bp": 60,
+    "heart_rate": 99,
+    "respiratory_rate": 14,
+    "temperature_c": 36.3,
+    "spo2": null
+  }
+}

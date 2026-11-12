@@ -1,0 +1,67 @@
+{
+  "patient_age": 55,
+  "patient_sex": "female",
+  "chief_complaint": "Headaches and dizzy spells, new rash on medial right calf",
+  "diagnoses": [
+    "Headaches",
+    "Dizziness",
+    "Atypical chest pains",
+    "Chronic renal failure",
+    "Type II diabetes",
+    "Myalgias",
+    "Severe anxiety"
+  ],
+  "medications": [
+    {
+      "name": "nystatin ointment",
+      "dose": null,
+      "route": null,
+      "frequency": "q.i.d. p.r.n."
+    },
+    {
+      "name": "triamcinolone 0.1% cream",
+      "dose": "0.1%",
+      "route": null,
+      "frequency": "t.i.d."
+    },
+    {
+      "name": "Bactroban ointment",
+      "dose": null,
+      "route": null,
+      "frequency": "t.i.d. p.r.n."
+    },
+    {
+      "name": "Klonopin",
+      "dose": "4 mg",
+      "route": null,
+      "frequency": "a.m."
+    },
+    {
+      "name": "Klonopin",
+      "dose": "6 mg",
+      "route": null,
+      "frequency": "h.s."
+    },
+    {
+      "name": "Coumadin",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "Sulfa",
+    "erythromycin",
+    "Macrodantin",
+    "tramadol"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 110,
+    "diastolic_bp": 70,
+    "heart_rate": 72,
+    "respiratory_rate": null,
+    "temperature_c": 36.8,
+    "spo2": null
+  }
+}

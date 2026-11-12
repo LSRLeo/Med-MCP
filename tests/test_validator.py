@@ -37,6 +37,32 @@ def test_invented_vital_flagged():
     assert any("respiratory_rate" in i for i in check_grounded(note, NOTE))
 
 
+def test_fahrenheit_note_accepts_celsius_value():
+    note = ClinicalNote(vitals=Vitals(temperature_c=37.0))
+    assert check_grounded(note, "Temp 98.6 F, HR 80") == []
+
+
+def test_fahrenheit_rounding_is_tolerated():
+    # 97.6 F = 36.44 C; the model rounds to 36.4, which converts back to 97.5 F
+    note = ClinicalNote(vitals=Vitals(temperature_c=36.4))
+    assert check_grounded(note, "Temperature 97.6, pulse 70") == []
+
+
+def test_temperature_not_in_note_flagged():
+    note = ClinicalNote(vitals=Vitals(temperature_c=38.5))
+    assert check_grounded(note, "Temperature 97.6, pulse 70") != []
+
+
+def test_dose_spacing_does_not_matter():
+    note = ClinicalNote(medications=[Medication(name="amlodipine", dose="5 mg")])
+    assert check_grounded(note, "amlodipine 5mg daily") == []
+
+
+def test_number_inside_larger_number_not_matched():
+    note = ClinicalNote(vitals=Vitals(heart_rate=37))
+    assert check_grounded(note, "glucose 137") != []
+
+
 def test_nkda_with_allergies_conflict():
     note = ClinicalNote(no_known_allergies=True, allergies=["penicillin"])
     assert any("no_known_allergies" in i for i in check_ranges(note))

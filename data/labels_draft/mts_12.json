@@ -1,0 +1,76 @@
+{
+  "patient_age": 71,
+  "patient_sex": "female",
+  "chief_complaint": "Shortness of breath for the past month, increasingly worse",
+  "diagnoses": [
+    "Coronary artery disease"
+  ],
+  "medications": [
+    {
+      "name": "Plavix",
+      "dose": "75 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Aspirin",
+      "dose": "81 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Isosorbide mononitrate",
+      "dose": "60 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Colace",
+      "dose": "100 mg",
+      "route": "p.o.",
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Atenolol",
+      "dose": "50 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Lantus insulin",
+      "dose": "15 units",
+      "route": "subcutaneously",
+      "frequency": "every evening"
+    },
+    {
+      "name": "Protonix",
+      "dose": "40 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Furosemide",
+      "dose": "40 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    },
+    {
+      "name": "Norvasc",
+      "dose": "5 mg",
+      "route": "p.o.",
+      "frequency": "daily"
+    }
+  ],
+  "allergies": [
+    "heparin agents"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 188,
+    "diastolic_bp": 94,
+    "heart_rate": 70,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": 99
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "patient_age": 17,
+  "patient_sex": "male",
+  "chief_complaint": "Ankle pain",
+  "diagnoses": [],
+  "medications": [
+    {
+      "name": "Adderall",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Accutane",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 120,
+    "diastolic_bp": 63,
+    "heart_rate": 70,
+    "respiratory_rate": 16,
+    "temperature_c": 36.4,
+    "spo2": 100
+  }
+}

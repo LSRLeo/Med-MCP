@@ -1,0 +1,108 @@
+{
+  "patient_age": null,
+  "patient_sex": "female",
+  "chief_complaint": "Followup evaluation of interstitial disease secondary to lupus pneumonitis",
+  "diagnoses": [
+    "Interstitial disease secondary to lupus pneumonitis",
+    "Lupus with mild pneumonitis",
+    "Increasing back and joint pain"
+  ],
+  "medications": [
+    {
+      "name": "Synthroid",
+      "dose": "0.112 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Prilosec",
+      "dose": "20 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Plaquenil",
+      "dose": "200 mg",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Imuran",
+      "dose": "100 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Advair",
+      "dose": "one puff",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Premarin",
+      "dose": "0.3 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Lipitor",
+      "dose": "10 mg",
+      "route": null,
+      "frequency": "Monday through Friday"
+    },
+    {
+      "name": "Actonel",
+      "dose": "35 mg",
+      "route": null,
+      "frequency": "weekly"
+    },
+    {
+      "name": "aspirin",
+      "dose": "81 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "calcium",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "vitamin D",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "vitamin E",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "vitamin C",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "multivitamin",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "Penicillin"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 122,
+    "diastolic_bp": 60,
+    "heart_rate": 72,
+    "respiratory_rate": 16,
+    "temperature_c": null,
+    "spo2": 96
+  }
+}

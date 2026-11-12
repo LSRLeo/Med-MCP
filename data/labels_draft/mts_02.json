@@ -1,0 +1,59 @@
+{
+  "patient_age": 48,
+  "patient_sex": "male",
+  "chief_complaint": "Renal insufficiency",
+  "diagnoses": [
+    "Hypertensive emergency",
+    "Acute on chronic renal failure",
+    "Urine drug screen positive",
+    "Question CHF versus COPD exacerbation",
+    "coronary artery disease",
+    "COPD",
+    "congestive heart failure with EF of 20%-25%",
+    "hypertension",
+    "renal insufficiency",
+    "chronic cocaine abuse"
+  ],
+  "medications": [
+    {
+      "name": "Clonidine",
+      "dose": "0.3",
+      "route": "p.o.",
+      "frequency": "q.8"
+    },
+    {
+      "name": "aspirin",
+      "dose": "325",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "hydralazine",
+      "dose": "100",
+      "route": null,
+      "frequency": "q.8"
+    },
+    {
+      "name": "Lipitor",
+      "dose": "20",
+      "route": null,
+      "frequency": "at bedtime"
+    },
+    {
+      "name": "Toprol XL",
+      "dose": "100",
+      "route": null,
+      "frequency": "daily"
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": true,
+  "vitals": {
+    "systolic_bp": 180,
+    "diastolic_bp": 110,
+    "heart_rate": 60,
+    "respiratory_rate": 23,
+    "temperature_c": 36.7,
+    "spo2": 95
+  }
+}

@@ -45,7 +45,7 @@ def check_grounded(note: ClinicalNote, note_text: str) -> list[str]:
     for path, value in iter_leaf_values(note):
         if path.split("[")[0] in PARAPHRASE_OK:
             continue
-        if find_snippet(note_text, value) is None:
+        if find_snippet(note_text, value, path) is None:
             issues.append(f"{path}={value!r} not found in the note text (possibly invented)")
     return issues
 

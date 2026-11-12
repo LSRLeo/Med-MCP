@@ -1,0 +1,59 @@
+{
+  "patient_age": 55,
+  "patient_sex": "female",
+  "chief_complaint": "increased weight and edema over the last few weeks with a 25-pound weight gain",
+  "diagnoses": [
+    "I-131-induced hypothyroidism",
+    "Graves disease",
+    "fibromyalgia",
+    "inflammatory bowel disease",
+    "Crohn disease",
+    "COPD",
+    "disc disease",
+    "hypertension",
+    "weight gain",
+    "edema"
+  ],
+  "medications": [
+    {
+      "name": "levothyroxine",
+      "dose": "300 mcg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "albuterol",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Asacol",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    },
+    {
+      "name": "Prilosec",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "IV DYE",
+    "SULFA",
+    "NSAIDS",
+    "COMPAZINE",
+    "DEMEROL"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 140,
+    "diastolic_bp": 70,
+    "heart_rate": 84,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": null
+  }
+}

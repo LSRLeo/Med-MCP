@@ -1,0 +1,45 @@
+{
+  "patient_age": 63,
+  "patient_sex": "male",
+  "chief_complaint": "heart failure",
+  "diagnoses": [
+    "Dilated cardiomyopathy",
+    "Dyslipidemia"
+  ],
+  "medications": [
+    {
+      "name": "Aspirin",
+      "dose": "81 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "chlordiazepoxide and clidinium",
+      "dose": "5 mg/2.5 mg 1 tablet",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "lisinopril",
+      "dose": "2.5 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "carvedilol",
+      "dose": "3.125 mg",
+      "route": null,
+      "frequency": "twice daily"
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 120,
+    "diastolic_bp": 70,
+    "heart_rate": 80,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": null
+  }
+}

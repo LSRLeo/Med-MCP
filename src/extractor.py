@@ -43,14 +43,14 @@ def extract(
     max_retries: int = MAX_RETRIES,
 ) -> ExtractionResult:
     client = client or anthropic.Anthropic()
-    messages: list[dict] = [{"role": "user", "content": f"<note>\n{note_text}\n</note>"}]
+    prompt = f"<note>\n{note_text}\n</note>"
 
     for attempt in range(1, max_retries + 2):
         response = client.messages.parse(
             model=MODEL,
             max_tokens=16000,
             system=SYSTEM_PROMPT,
-            messages=messages,
+            messages=[{"role": "user", "content": prompt}],
             output_format=ClinicalNote,
         )
         if response.stop_reason == "refusal":
@@ -63,16 +63,14 @@ def extract(
         if not issues or attempt > max_retries:
             return ExtractionResult(note=note, issues=issues, attempts=attempt)
 
-        # Feed the problems back and ask for a corrected extraction.
-        messages.append({"role": "assistant", "content": response.content})
-        messages.append(
-            {
-                "role": "user",
-                "content": "Your extraction has these problems:\n"
-                + "\n".join(f"- {i}" for i in issues)
-                + "\nRe-read the note and return a corrected extraction. "
-                "Remove any value that is not stated in the note.",
-            }
+        # Retry as a fresh request: the note, the previous attempt, and what was wrong with it.
+        prompt = (
+            f"<note>\n{note_text}\n</note>\n\n"
+            f"<previous_extraction>\n{note.model_dump_json(indent=2)}\n</previous_extraction>\n\n"
+            "A checker found these problems with the previous extraction:\n"
+            + "\n".join(f"- {i}" for i in issues)
+            + "\n\nRe-read the note and return a corrected extraction. Remove any value that "
+            "is not stated in the note; keep values that are correct."
         )
 
     raise AssertionError("unreachable")

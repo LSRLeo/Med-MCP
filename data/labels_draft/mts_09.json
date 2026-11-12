@@ -1,0 +1,153 @@
+{
+  "patient_age": 82,
+  "patient_sex": "female",
+  "chief_complaint": "Falls at home.",
+  "diagnoses": [
+    "Falls",
+    "Anxiety and depression",
+    "Hypertension",
+    "Hypercholesterolemia",
+    "Coronary artery disease",
+    "Osteoarthritis",
+    "Chronic obstructive pulmonary disease",
+    "Hypothyroidism"
+  ],
+  "medications": [
+    {
+      "name": "Tylenol",
+      "dose": "650 mg",
+      "route": null,
+      "frequency": "q.6h. p.r.n."
+    },
+    {
+      "name": "Xanax",
+      "dose": "0.5",
+      "route": null,
+      "frequency": "q.4h. p.r.n."
+    },
+    {
+      "name": "Lasix",
+      "dose": "80 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Isordil",
+      "dose": "10 mg",
+      "route": null,
+      "frequency": "t.i.d."
+    },
+    {
+      "name": "KCl",
+      "dose": "20 mEq",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "lactulose",
+      "dose": "10 g",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Cozaar",
+      "dose": "50 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Synthroid",
+      "dose": "75 mcg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Singulair",
+      "dose": "10 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Lumigan",
+      "dose": "one drop",
+      "route": "both eyes",
+      "frequency": "at bed time"
+    },
+    {
+      "name": "NitroQuick",
+      "dose": null,
+      "route": null,
+      "frequency": "p.r.n."
+    },
+    {
+      "name": "Pravachol",
+      "dose": "20 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Feldene",
+      "dose": "20 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Paxil",
+      "dose": "20 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Minipress",
+      "dose": "2 mg",
+      "route": null,
+      "frequency": "daily"
+    },
+    {
+      "name": "Provera",
+      "dose": null,
+      "route": null,
+      "frequency": "p.r.n."
+    },
+    {
+      "name": "Advair",
+      "dose": "250/50 one puff",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Senokot",
+      "dose": "one tablet",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Timoptic",
+      "dose": "one drop",
+      "route": "OU",
+      "frequency": "daily"
+    },
+    {
+      "name": "verapamil",
+      "dose": "80 mg",
+      "route": null,
+      "frequency": "b.i.d."
+    },
+    {
+      "name": "Darvocet",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": null,
+    "diastolic_bp": null,
+    "heart_rate": null,
+    "respiratory_rate": null,
+    "temperature_c": null,
+    "spo2": null
+  }
+}

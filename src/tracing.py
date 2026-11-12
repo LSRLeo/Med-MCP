@@ -19,13 +19,44 @@ class SourceSpan:
     snippet: str
 
 
-def find_snippet(note_text: str, value: Any) -> SourceSpan | None:
+def candidates_for(path: str, value: Any) -> list[str]:
+    """All spellings of a value that count as 'found in the note'."""
+    if isinstance(value, str):
+        return variants(value)
+    return [_format_number(value)]
+
+
+_NUMBER = re.compile(r"(?<![\w.])\d{2,3}(?:\.\d+)?(?![\w])")
+
+
+def _find_temperature(note_text: str, celsius: float) -> re.Match[str] | None:
+    """Temperatures are converted to Celsius by the model, so compare numerically:
+    accept a number in the note that equals the value in C, or converts to it from F,
+    within rounding to one decimal place."""
+    for m in _NUMBER.finditer(note_text):
+        n = float(m.group(0))
+        if abs(n - celsius) <= 0.051 or abs((n - 32) * 5 / 9 - celsius) <= 0.051:
+            return m
+    return None
+
+
+def _pattern(cand: str) -> str:
+    """Whole-word match; any whitespace in the value matches any (or no) whitespace."""
+    parts = [re.escape(p) for p in cand.split()]
+    return rf"(?<![\w.]){r'\s*'.join(parts)}(?![\w])"
+
+
+def find_snippet(note_text: str, value: Any, path: str = "") -> SourceSpan | None:
     """Locate a value (or a glossary variant of it) in the note. Case-insensitive, whole-word."""
     if value is None or value == "":
         return None
-    candidates = variants(str(value)) if isinstance(value, str) else [_format_number(value)]
-    for cand in candidates:
-        m = re.search(rf"(?<![\w.]){re.escape(cand)}(?![\w])", note_text, re.IGNORECASE)
+    if path == "vitals.temperature_c":
+        matches = [_find_temperature(note_text, float(value))]
+    else:
+        matches = [
+            re.search(_pattern(c), note_text, re.IGNORECASE) for c in candidates_for(path, value)
+        ]
+    for m in matches:
         if m:
             lo = max(0, m.start() - CONTEXT_CHARS)
             hi = min(len(note_text), m.end() + CONTEXT_CHARS)
@@ -43,7 +74,7 @@ def trace_note(note: ClinicalNote, note_text: str) -> dict[str, SourceSpan | Non
     """Map each populated field path (e.g. 'medications[0].name') to its source span."""
     traces: dict[str, SourceSpan | None] = {}
     for path, value in iter_leaf_values(note):
-        traces[path] = find_snippet(note_text, value)
+        traces[path] = find_snippet(note_text, value, path)
     return traces
 
 

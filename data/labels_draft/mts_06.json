@@ -1,0 +1,30 @@
+{
+  "patient_age": 50,
+  "patient_sex": "female",
+  "chief_complaint": "Lightheaded, dizziness, and palpitation.",
+  "diagnoses": [
+    "Lightheaded, dizziness",
+    "No documented arrhythmia with the symptoms of palpitation",
+    "Incomplete right bundle-branch block"
+  ],
+  "medications": [
+    {
+      "name": "ibuprofen",
+      "dose": null,
+      "route": null,
+      "frequency": null
+    }
+  ],
+  "allergies": [
+    "SULFA"
+  ],
+  "no_known_allergies": false,
+  "vitals": {
+    "systolic_bp": 127,
+    "diastolic_bp": 75,
+    "heart_rate": 69,
+    "respiratory_rate": 16,
+    "temperature_c": null,
+    "spo2": null
+  }
+}
